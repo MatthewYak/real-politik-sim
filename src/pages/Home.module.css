@@ -118,10 +118,33 @@
 	transition: all 0.2s ease-in-out;
 }
 
-.conBtn {
+.nextQuarterBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.2s ease-in-out;
+}
+
+.points {
+	/* Center the points to the screen */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* Center the text */
+	text-align: center;
+	line-height: 1.5rem;
+	/* Set font size */
+	font-size: 1.5rem;
+	/* Set font weight */
+	font-weight: 700;
 	/* Set size */
-	width: var(--width);
-	height: var(--height);
+	width: 5rem;
+	height: 5rem;
 	/* Set background color */
 	background-color: #fff;
 	/* Set border radius */
@@ -130,9 +153,6 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	/* Set transition */
 	transition: all 0.2s ease-in-out;
-}
-
-.points {
 }
 
 .foreignPoliciesContainer {
