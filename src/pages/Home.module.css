@@ -1,47 +1,148 @@
+/* Define height and width variables */
+:root {
+	--height: 3rem;
+	--width: 3rem;
+}
+
+.money {
+	/* style the money counter */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10rem;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px #000;
+	color: #000;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 0 0 0.5px #000;
+}
+
+.sideBtnsContainer {
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
+}
+
 .financesBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .policiesBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .lawOrderBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .cabBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .sitBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .secBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .conBtn {
-  
+	/* Set size */
+	width: var(--width);
+	height: var(--height);
+	/* Set background color */
+	background-color: #fff;
+	/* Set border radius */
+	border-radius: 50%;
+	/* Set box shadow */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Set transition */
+	transition: all 0.2s ease-in-out;
 }
 
 .points {
-  
 }
 
 .foreignPoliciesContainer {
-  
 }
 
 .taxPoliciesContainer {
-  
 }
 
 .lawOrderPoliciesContainer {
-  
 }
 
 .econTransPoliciesContainer {
-  
 }
