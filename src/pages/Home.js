@@ -10,12 +10,12 @@ function Home() {
       <div>
         <h1 className={styles["money"]}>$1K</h1>
         <div className={styles["sideBtnsContainer"]}>
-          <button className={styles["financesBtn"]}>$</button>
-          <button className={styles["policiesBtn"]}>All Policies</button>
-          <button className={styles["lawOrderBtn"]}>Law And Order</button>
-          <button className={styles["cabBtn"]}>Cabnet</button>
-          <button className={styles["sitBtn"]}>Situations</button>
-          <button className={styles["secBtn"]}>Security</button>
+          <button className={styles["financesBtn"]}></button>
+          <button className={styles["policiesBtn"]}></button>
+          <button className={styles["lawOrderBtn"]}></button>
+          <button className={styles["cabBtn"]}></button>
+          <button className={styles["sitBtn"]}></button>
+          <button className={styles["secBtn"]}></button>
         </div>
         <button className={styles["nextQuarterBtn"]}>Next Quarter</button>
         <div className={styles["points"]}>
