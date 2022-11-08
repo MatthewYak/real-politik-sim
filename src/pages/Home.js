@@ -16,7 +16,6 @@ function Home() {
           <button className={styles["cabBtn"]}>Cabnet</button>
           <button className={styles["sitBtn"]}>Situations</button>
           <button className={styles["secBtn"]}>Security</button>
-          <button className={styles["conBtn"]}>Congress</button>
         </div>
         <button className={styles['nextQuarterBtn']}>Next Quarter</button>
         <p className={styles["points"]}>x64</p>
