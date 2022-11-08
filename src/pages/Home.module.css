@@ -155,14 +155,60 @@
 	transition: all 0.2s ease-in-out;
 }
 
+.policyContainer {
+	position: absolute;
+	top: 0;
+	z-index: -99;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.policyContainer h2 {
+	text-align: center;
+}
+
 .foreignPoliciesContainer {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -99;
+	height: 50%;
+	width: 50%;
+	border: 5px solid #000;
 }
 
 .taxPoliciesContainer {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -99;
+	height: 50%;
+	width: 50%;
+	border: 5px solid #000;
 }
 
 .lawOrderPoliciesContainer {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -99;
+	height: 50%;
+	width: 50%;
+	border: 5px solid #000;
 }
 
 .econTransPoliciesContainer {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -99;
+	height: 50%;
+	width: 50%;
+	border: 5px solid #000;
 }
