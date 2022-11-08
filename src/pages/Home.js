@@ -18,7 +18,7 @@ function Home() {
           <button className={styles["secBtn"]}>Security</button>
         </div>
         <button className={styles['nextQuarterBtn']}>Next Quarter</button>
-        <p className={styles["points"]}>x64</p>
+        <div className={styles["points"]}><p>x64</p></div>
         <div className={styles["foreignPoliciesContainer"]}></div>
         <div className={styles["taxPoliciesContainer"]}></div>
         <div className={styles["lawOrderPoliciesContainer"]}></div>
